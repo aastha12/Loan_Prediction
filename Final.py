@@ -23,7 +23,7 @@ def run():
 
     add_selectbox = st.sidebar.selectbox(
     "What would you like to do?",
-    ("Online Prediction","Batch Prediction","Analyze Training Data"))
+    ("Online Prediction","Batch Prediction"))
 
     st.sidebar.info('This app is created to predict if the applicant should be granted a loan or not.')
     
@@ -89,14 +89,6 @@ def run():
 
             st.write(data)
             st.markdown(get_table_download_link(data), unsafe_allow_html=True)
-            
-    if add_selectbox == 'Analyze Training Data':
-
-        #analyzing the dataset
-        train_df=pd.read_csv("https://raw.githubusercontent.com/dphi-official/Datasets/master/Loan_Data/loan_train.csv" )
-        advert_report = sv.analyze(train_df)
-        #display the report
-        advert_report.show_html('Analyzing Training Data.html')
 
 
 import base64
