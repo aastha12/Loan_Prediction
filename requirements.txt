@@ -1,3 +1,2 @@
 pycaret==0.0.34
 streamlit==0.57.0
-sweetviz==1.1.1
