@@ -1,2 +1,2 @@
-streamlit
-pycaret
+streamlit==0.73.0
+pycaret==2.2.3
