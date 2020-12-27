@@ -7,4 +7,3 @@ joblib
 sweetviz
 pycaret
 tensorflow
-base64
