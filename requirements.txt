@@ -1,2 +1,2 @@
 pycaret==0.0.60
-streamlit==0.63.0
+streamlit==0.58.0
