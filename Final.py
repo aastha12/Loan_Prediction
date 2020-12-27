@@ -5,8 +5,6 @@
 import streamlit as st
 import joblib
 
-import sweetviz as sv
-
 from pycaret.classification import *
 
 
