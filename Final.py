@@ -8,7 +8,8 @@ import joblib
 from pycaret.classification import *
 
 
-tuned_cat=joblib.load('Cat.pkl')
+#tuned_cat=joblib.load('Cat.pkl')
+tuned_cat = pickle.load(open('Cat.pkl','rb'))
 
 
 import tensorflow as tf
