@@ -10,7 +10,7 @@ from pycaret.classification import *
 
 
 #tuned_cat=joblib.load('Cat.pkl')
-tuned_cat = pickle.load(open('Cat.pkl','rb'))
+tuned_cat = pickle.load(open('https://github.com/aastha12/Loan_Prediction/blob/main/Cat.pkl','rb'))
 
 
 import tensorflow as tf
