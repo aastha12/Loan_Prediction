@@ -4,6 +4,7 @@
 
 import streamlit as st
 import joblib
+import pickle
 
 from pycaret.classification import *
 
